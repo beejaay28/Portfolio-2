@@ -4,3 +4,10 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+var typed = new Typed(".auto-type", {
+  strings: ["Bryan", "Coding", "Playing"],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true
+})

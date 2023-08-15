@@ -1,15 +1,14 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -18,8 +17,6 @@ html {
 
 p {
   color: rgb(85, 85, 85);
-  font-size: 24px;
-  font-style: italic;
 }
 
 /* TRANSITION */
@@ -39,7 +36,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 15vh;
+  height: 17vh;
 }
 
 .nav-links {
@@ -61,13 +58,8 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-span{
-  color: blue;
-}
-
 .logo {
   font-size: 2rem;
-  font-weight: bold;
 }
 
 .logo:hover {
@@ -210,7 +202,7 @@ section {
 #socials-container {
   display: flex;
   justify-content: center;
-  margin-top: 1.3rem;
+  margin-top: 1rem;
   gap: 1rem;
 }
 
@@ -218,7 +210,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 3rem;
+  height: 2rem;
 }
 
 /* BUTTONS */
@@ -305,7 +297,7 @@ section {
   padding: 1.5rem;
   flex: 1;
   background: white;
-  border-radius:3rem;
+  border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
@@ -437,4 +429,46 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+
+/* CONTACT FORM */
+#contact-form {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }
